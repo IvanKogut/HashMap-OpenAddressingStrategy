@@ -1,2 +1,4 @@
-Key ExpectedValueOrException
-9990 8164
+Key ExpectedValue
+9990 1
+-1 notExist
+-2 notExist
