@@ -23,7 +23,7 @@ public class Main {
         try (InputStream inputStream = System.out.getClass().getResourceAsStream("/testPut.txt");
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream)))  {
 
-            map = new HashMapOpenAddressing(Integer.parseInt(reader.readLine()));
+            map = new HashMapOpenAddressing(Integer.parseInt(reader.readLine().split(" ")[1]));
 
             while (reader.ready()) {
                 String[] line = reader.readLine().split(" ");
@@ -41,6 +41,8 @@ public class Main {
         // get
         try (InputStream inputStream = map.getClass().getResourceAsStream("/testGet.txt");
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream)))  {
+
+            reader.readLine(); // skip the first line
 
             while (reader.ready()) {
                 String[] line = reader.readLine().split(" ");
