@@ -32,11 +32,16 @@ public class HashMapTest {
     }
 
     @Test
-    public void sizeTest() {
-        Assert.assertEquals(10_000, map.size());
+    public void sizeTest() throws IOException {
+        try (InputStream inputStream = map.getClass().getResourceAsStream("/testSize.txt");
+             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream)))  {
+
+            int expectedSize = Integer.parseInt(reader.readLine().split(" ")[1]);
+            Assert.assertEquals(expectedSize, map.size());
+        }
     }
 
-    @Test()
+    @Test
     public void getTest() throws IOException {
 
         try (InputStream inputStream = map.getClass().getResourceAsStream("/testGet.txt");

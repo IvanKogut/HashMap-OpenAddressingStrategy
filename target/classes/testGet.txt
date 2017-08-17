@@ -1,4 +1,30 @@
-Key ExpectedValue
-9990 1
--1 notExist
--2 notExist
+Key ExpectedValue     (if the "ExpectedValue" here is empty then corresponding key doesn`t exist in the map)
+9990 8164
+-1
+2576 4513
+3500 3706
+5938 2545
+-2
+3523 2774
+-423423
+-65465454
+0
+5240 2914
+10001
+6889 557
+8886 9619
+9377 9917
+9389 8819
+-534
+609 1861
+616 998
+4137 8353
+-4234
+5169 7089
+5176 9061
+6621 9746
+-34
+6629 2401
+7186 4610
+920 1062
+921 1731

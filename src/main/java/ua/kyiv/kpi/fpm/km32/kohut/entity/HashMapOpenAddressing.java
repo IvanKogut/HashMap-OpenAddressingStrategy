@@ -112,12 +112,4 @@ public class HashMapOpenAddressing implements Map {
     private int getKeyOffset(int key) {
         return 5 - key % 5;
     }
-
-    @Override
-    public String toString() {
-        for (int i = 0; i < capacity; i++) {
-            System.out.println(this.keys[i] + " " + this.values[i]);
-        }
-        return "";
-    }
 }
