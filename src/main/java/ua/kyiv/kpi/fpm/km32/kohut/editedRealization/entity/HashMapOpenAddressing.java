@@ -1,5 +1,6 @@
-package ua.kyiv.kpi.fpm.km32.kohut.entity;
+package ua.kyiv.kpi.fpm.km32.kohut.editedRealization.entity;
 
+import ua.kyiv.kpi.fpm.km32.kohut.entity.Map;
 import ua.kyiv.kpi.fpm.km32.kohut.exception.NotExistKeyException;
 
 import java.io.*;

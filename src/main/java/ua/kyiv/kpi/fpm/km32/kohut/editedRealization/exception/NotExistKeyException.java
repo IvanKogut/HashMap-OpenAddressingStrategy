@@ -1,4 +1,4 @@
-package ua.kyiv.kpi.fpm.km32.kohut.exception;
+package ua.kyiv.kpi.fpm.km32.kohut.editedRealization.exception;
 
 /**
  * Created by i.kohut on 8/16/2017.

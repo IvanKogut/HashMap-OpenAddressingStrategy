@@ -1,11 +1,11 @@
-package ua.kyiv.kpi.fpm.km32.kohut.entity;
+package ua.kyiv.kpi.fpm.km32.kohut.editedRealization.entity;
 
 public class MapAdapter implements ua.kyiv.kpi.fpm.km32.kohut.entity.Map {
 
 	private java.util.Map<Integer, Long> map;
 
 	public MapAdapter(java.util.Map<Integer, Long> map) {
-		this.map= map;
+		this.map = map;
 	}
 
 	@Override
