@@ -1,6 +1,6 @@
-package ua.kyiv.kpi.fpm.km32.kohut.editedRealization.entity;
+package ua.kyiv.kpi.fpm.km32.kohut.domain;
 
-public class MapAdapter implements ua.kyiv.kpi.fpm.km32.kohut.entity.Map {
+public class MapAdapter implements Map {
 
 	private java.util.Map<Integer, Long> map;
 

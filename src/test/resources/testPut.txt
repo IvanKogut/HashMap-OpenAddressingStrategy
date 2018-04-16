@@ -1,4 +1,3 @@
-InitialCapacityOfHashMap 7
 1 593
 1 1796
 1 1604
